@@ -13,7 +13,7 @@ export default function Home() {
         <title>Obsqura 23</title>
         <meta
           name="description"
-          content="Hestia '23 is the annual techno-cultural fest of Ilahia College of Engineering and Technology."
+          content="Obsqura '23 is the annual techno-cultural fest of Ilahia College of Engineering and Technology."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
