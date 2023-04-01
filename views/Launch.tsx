@@ -18,7 +18,7 @@ const Launch = ({ onClick }: LaunchProps) => {
         fontFamily="Clash Display"
         onClick={() => onClick("home")}
       >
-        Click here
+        Launch
       </Heading>
     </VStack>
   );
