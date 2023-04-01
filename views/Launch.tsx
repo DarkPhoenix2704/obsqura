@@ -7,16 +7,19 @@ const Launch = ({ onClick }: LaunchProps) => {
       justifyContent="center"
       width="100vw"
       height="100vh"
-      gap="20px"
+      gap="50px"
       backgroundImage="/bgFinal.png"
     >
       <Image src="/icetLogo.png" width="30%" alt="Obsqura 23" />
       <Heading
         as="button"
-        textColor="white"
+        textColor="#f6f6f6"
         fontSize="56px"
         fontFamily="Clash Display"
         onClick={() => onClick("home")}
+        _hover={{
+          textColor: "#f6f6f6",
+        }}
       >
         Launch
       </Heading>
